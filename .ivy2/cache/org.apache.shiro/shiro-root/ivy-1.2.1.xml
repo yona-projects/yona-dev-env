@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.apache.shiro"
+		module="shiro-root"
+		revision="1.2.1"
+		status="release"
+		publication="20120726053955"
+	>
+		<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+		<description homepage="http://shiro.apache.org/">
+		Apache Shiro is a powerful and flexible open-source security framework that cleanly handles
+        authentication, authorization, enterprise session management, single sign-on and cryptography services.
+		</description>
+		<m:properties__spring.version>3.1.0.RELEASE</m:properties__spring.version>
+		<m:properties__groovy.version>1.8.5</m:properties__groovy.version>
+		<m:dependency.management__commons-codec__commons-codec__version>1.4</m:dependency.management__commons-codec__commons-codec__version>
+		<m:dependency.management__com.atlassian.crowd__crowd-integration-client__version>1.5.2</m:dependency.management__com.atlassian.crowd__crowd-integration-client__version>
+		<m:dependency.management__log4j__log4j__scope>test</m:dependency.management__log4j__log4j__scope>
+		<m:dependency.management__hsqldb__hsqldb__version>1.8.0.7</m:dependency.management__hsqldb__hsqldb__version>
+		<m:properties__junit.version>4.8.2</m:properties__junit.version>
+		<m:dependency.management__org.hibernate__hibernate-annotations__version>3.2.1.ga</m:dependency.management__org.hibernate__hibernate-annotations__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__scope>test</m:dependency.management__org.slf4j__slf4j-log4j12__scope>
+		<m:dependency.management__org.slf4j__jcl-over-slf4j__version>1.6.4</m:dependency.management__org.slf4j__jcl-over-slf4j__version>
+		<m:dependency.management__com.google.inject__guice__version>3.0</m:dependency.management__com.google.inject__guice__version>
+		<m:properties__aspectj.version>1.6.12</m:properties__aspectj.version>
+		<m:dependency.management__org.springframework__spring-jdbc__version>3.1.0.RELEASE</m:dependency.management__org.springframework__spring-jdbc__version>
+		<m:dependency.management__commons-beanutils__commons-beanutils__exclusion_0>commons-logging__commons-logging</m:dependency.management__commons-beanutils__commons-beanutils__exclusion_0>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:dependency.management__org.apache.shiro__shiro-web__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-web__version>
+		<m:dependency.management__org.slf4j__slf4j-simple__version>1.6.4</m:dependency.management__org.slf4j__slf4j-simple__version>
+		<m:dependency.management__org.slf4j__jcl-over-slf4j__scope>test</m:dependency.management__org.slf4j__jcl-over-slf4j__scope>
+		<m:properties__easymock.version>3.1</m:properties__easymock.version>
+		<m:properties__ehcache.version>2.5.0</m:properties__ehcache.version>
+		<m:dependency.management__org.aspectj__aspectjweaver__version>1.6.12</m:dependency.management__org.aspectj__aspectjweaver__version>
+		<m:dependency.management__log4j__log4j__version>1.2.16</m:dependency.management__log4j__log4j__version>
+		<m:dependency.management__javax.servlet__servlet-api__scope>provided</m:dependency.management__javax.servlet__servlet-api__scope>
+		<m:dependency.management__net.sf.ehcache__ehcache-core__version>2.5.0</m:dependency.management__net.sf.ehcache__ehcache-core__version>
+		<e:sbtTransformHash>bed6df0454f2256a42e3e8d4e6bf5246c7f866ed</e:sbtTransformHash>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.rat__apache-rat-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__2.0.2|org.apache.maven.plugins__maven-surefire-plugin__2.12|org.codehaus.gmaven__gmaven-plugin__1.3|org.codehaus.mojo__buildnumber-maven-plugin__1.0-beta-4|org.apache.maven.plugins__maven-jar-plugin__2.3.1|org.apache.maven.plugins__maven-release-plugin__null</m:maven.plugins>
+		<m:properties__guice.version>3.0</m:properties__guice.version>
+		<m:dependency.management__org.springframework__spring-webmvc__version>3.1.0.RELEASE</m:dependency.management__org.springframework__spring-webmvc__version>
+		<m:dependency.management__com.google.guava__guava__version>r09</m:dependency.management__com.google.guava__guava__version>
+		<m:dependency.management__org.apache.shiro__shiro-core__scope>test</m:dependency.management__org.apache.shiro__shiro-core__scope>
+		<m:dependency.management__commons-codec__commons-codec__scope>runtime</m:dependency.management__commons-codec__commons-codec__scope>
+		<m:dependency.management__com.google.inject.extensions__guice-multibindings__version>3.0</m:dependency.management__com.google.inject.extensions__guice-multibindings__version>
+		<m:dependency.management__org.springframework__spring-orm__version>3.1.0.RELEASE</m:dependency.management__org.springframework__spring-orm__version>
+		<m:dependency.management__org.springframework__spring-webmvc__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.springframework__spring-webmvc__exclusion_0>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-jta_1.1_spec__scope>runtime</m:dependency.management__org.apache.geronimo.specs__geronimo-jta_1.1_spec__scope>
+		<m:dependency.management__javax.servlet__jstl__version>1.1.2</m:dependency.management__javax.servlet__jstl__version>
+		<m:properties__hsqldb.version>1.8.0.7</m:properties__hsqldb.version>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:dependency.management__org.apache.shiro__shiro-all__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-all__version>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:dependency.management__org.springframework__spring-test__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.springframework__spring-test__exclusion_0>
+		<m:properties__jdk.version>1.5</m:properties__jdk.version>
+		<m:dependency.management__org.slf4j__slf4j-simple__scope>test</m:dependency.management__org.slf4j__slf4j-simple__scope>
+		<m:dependency.management__org.springframework__spring-context__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.springframework__spring-context__exclusion_0>
+		<m:dependency.management__org.springframework__spring-orm__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.springframework__spring-orm__exclusion_0>
+		<m:dependency.management__org.opensymphony.quartz__quartz__version>1.6.1</m:dependency.management__org.opensymphony.quartz__quartz__version>
+		<m:dependency.management__org.apache.shiro.samples__samples-spring-client__version>1.2.1</m:dependency.management__org.apache.shiro.samples__samples-spring-client__version>
+		<m:properties__commons.codec.version>1.4</m:properties__commons.codec.version>
+		<m:dependency.management__org.apache.shiro__shiro-aspectj__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-aspectj__version>
+		<m:dependency.management__javax.servlet.jsp__jsp-api__scope>provided</m:dependency.management__javax.servlet.jsp__jsp-api__scope>
+		<m:dependency.management__org.apache.shiro__shiro-spring__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-spring__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-all__version>1.8.5</m:dependency.management__org.codehaus.groovy__groovy-all__version>
+		<m:dependency.management__org.springframework__spring-context__version>3.1.0.RELEASE</m:dependency.management__org.springframework__spring-context__version>
+		<m:properties__shiro.osgi.importRange>[1.2, 2)</m:properties__shiro.osgi.importRange>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_5>javax.servlet__servlet-api</m:dependency.management__org.hibernate__hibernate__exclusion_5>
+		<m:dependency.management__javax.servlet__jstl__scope>provided</m:dependency.management__javax.servlet__jstl__scope>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_4>javax.security__jacc</m:dependency.management__org.hibernate__hibernate__exclusion_4>
+		<m:dependency.management__org.hibernate__hibernate__version>3.2.6.ga</m:dependency.management__org.hibernate__hibernate__version>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_7>net.sf.ehcache__ehcache</m:dependency.management__org.hibernate__hibernate__exclusion_7>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_6>jboss__jboss-cache</m:dependency.management__org.hibernate__hibernate__exclusion_6>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_9>javax.transaction__jta</m:dependency.management__org.hibernate__hibernate__exclusion_9>
+		<m:dependency.management__commons-cli__commons-cli__version>1.2</m:dependency.management__commons-cli__commons-cli__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.6.4</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.6.4</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_8>asm__asm-attrs</m:dependency.management__org.hibernate__hibernate__exclusion_8>
+		<m:dependency.management__org.springframework__spring-test__scope>test</m:dependency.management__org.springframework__spring-test__scope>
+		<m:dependency.management__org.apache.shiro__shiro-guice__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-guice__version>
+		<m:dependency.management__org.springframework__spring-test__version>3.1.0.RELEASE</m:dependency.management__org.springframework__spring-test__version>
+		<m:dependency.management__log4j__log4j__exclusion_0>javax.mail__mail</m:dependency.management__log4j__log4j__exclusion_0>
+		<m:properties__slf4j.version>1.6.4</m:properties__slf4j.version>
+		<m:dependency.management__log4j__log4j__exclusion_1>javax.jms__jms</m:dependency.management__log4j__log4j__exclusion_1>
+		<m:dependency.management__log4j__log4j__exclusion_2>com.sun.jdmk__jmxtools</m:dependency.management__log4j__log4j__exclusion_2>
+		<m:dependency.management__log4j__log4j__exclusion_3>com.sun.jmx__jmxri</m:dependency.management__log4j__log4j__exclusion_3>
+		<m:dependency.management__commons-beanutils__commons-beanutils__version>1.8.3</m:dependency.management__commons-beanutils__commons-beanutils__version>
+		<m:dependency.management__org.springframework__spring-jdbc__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.springframework__spring-jdbc__exclusion_0>
+		<m:dependency.management__hsqldb__hsqldb__scope>runtime</m:dependency.management__hsqldb__hsqldb__scope>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:properties__gmaven.version>1.3</m:properties__gmaven.version>
+		<m:dependency.management__org.apache.shiro__shiro-quartz__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-quartz__version>
+		<m:properties__quartz.version>1.6.1</m:properties__quartz.version>
+		<m:properties__commons.cli.version>1.2</m:properties__commons.cli.version>
+		<m:dependency.management__org.aspectj__aspectjrt__version>1.6.12</m:dependency.management__org.aspectj__aspectjrt__version>
+		<m:dependency.management__net.sf.ehcache__ehcache-core__exclusion_0>commons-logging__commons-logging</m:dependency.management__net.sf.ehcache__ehcache-core__exclusion_0>
+		<m:dependency.management__com.google.inject.extensions__guice-servlet__version>3.0</m:dependency.management__com.google.inject.extensions__guice-servlet__version>
+		<m:properties__crowd.version>1.5.2</m:properties__crowd.version>
+		<m:properties__jetty.version>6.1.26</m:properties__jetty.version>
+		<m:properties__guava.version>r09</m:properties__guava.version>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_1>ant__ant</m:dependency.management__org.hibernate__hibernate__exclusion_1>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.hibernate__hibernate__exclusion_0>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_3>c3p0__c3p0</m:dependency.management__org.hibernate__hibernate__exclusion_3>
+		<m:dependency.management__org.hibernate__hibernate__exclusion_2>ant-launcher__ant-launcher</m:dependency.management__org.hibernate__hibernate__exclusion_2>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__org.apache.shiro__shiro-core__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-core__version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-jta_1.1_spec__version>1.1.1</m:dependency.management__org.apache.geronimo.specs__geronimo-jta_1.1_spec__version>
+		<m:dependency.management__javax.servlet__servlet-api__version>2.5</m:dependency.management__javax.servlet__servlet-api__version>
+		<m:properties__buildNumber>${user.name}-${maven.build.timestamp}</m:properties__buildNumber>
+		<m:dependency.management__org.apache.shiro__shiro-ehcache__version>1.2.1</m:dependency.management__org.apache.shiro__shiro-ehcache__version>
+		<m:dependency.management__org.opensymphony.quartz__quartz__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.opensymphony.quartz__quartz__exclusion_0>
+		<m:dependency.management__javax.servlet.jsp__jsp-api__version>2.1</m:dependency.management__javax.servlet.jsp__jsp-api__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="junit" name="junit" rev="4.8.2" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.easymock" name="easymock" rev="3.1" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.codehaus.groovy" name="groovy-all" rev="1.8.5" force="true" conf="test->runtime(*),master(compile)"/>
+	</dependencies>
+</ivy-module>

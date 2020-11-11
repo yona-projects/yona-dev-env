@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.subversion</groupId>
+  <artifactId>svn-javahl-api</artifactId>
+  <version>1.9.3-SNAPSHOT</version>
+  <name>Subversion JavaHL API</name>
+  <description>Subversion 1.7 JavaHL API</description>
+  <url>http://subversion.apache.org/</url>
+  <licenses>
+    <license>
+      <name>Apache License, v 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>subversion</id>
+      <name>Subversion Developers</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/subversion</connection>
+    <url>http://svn.apache.org/repos/asf/subversion/</url>
+  </scm>
+</project>
